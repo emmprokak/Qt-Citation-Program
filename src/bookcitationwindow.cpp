@@ -205,3 +205,4 @@ void BookCitationWindow::format_citation()
     ui_3->label_result->setTextInteractionFlags(Qt::TextSelectableByMouse);
 }
 
+
