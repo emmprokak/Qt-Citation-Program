@@ -5,7 +5,7 @@ Hi there! I am happy to see you found my software on github and I hope you may f
 
 This Citation Program, written in C++ and powered by Qt, aims to help the user format his/her citations in a more automated way. The program formats the data given by the user to a complete citation, ready to be pasted into school/university projects and academic papers!
 
-
+![screenshot_1](https://user-images.githubusercontent.com/89413115/136813610-a5fcc45a-efbd-4c30-9498-615870a5754f.png)     ![screenshot_2](https://user-images.githubusercontent.com/89413115/136813631-6c1f2d37-92ae-4307-88f4-02825b061f7f.png)
 
 The program allows users to cite papers, books and in-book chapters in both the Harvard and APA citation standards. All the user has to do is enter data in the textfields of the GUI, and the program will format the citation in a proper manner.
 
