@@ -1,8 +1,6 @@
 # Qt Citation Program v1.1
 ## Copyright (C) 2021 Prokakis Emmanouil
 
-Hi there! I am happy to see you found my software on github and I hope you may find some use in it.
-
 This Citation Program, written in C++ and powered by Qt, aims to help the user format his/her citations in a more automated way. The program formats the data given by the user to a complete citation, ready to be pasted into school/university projects and academic papers!
 
 ![screenshot_1](https://user-images.githubusercontent.com/89413115/136813610-a5fcc45a-efbd-4c30-9498-615870a5754f.png)     
