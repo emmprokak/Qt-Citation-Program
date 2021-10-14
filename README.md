@@ -16,8 +16,9 @@ The icons of the program are all made by Danae Lypiridi.
 -Download the zip folder from releases.
 
 -Run "Qt Citation Program.exe" from inside the folder.
-### Your Antivirus might temporarily not allow you to run the exe since it's an unsigned exe you got from the internet.
-### After it's scanned by the Antivirus, you should be allowed to use it normally.
+### Window defender will not allow you to run the exe since it's an unsigned exe you got from the internet.
+### After the "don't run" window appears, you will be able to unblock the application by going to the properties of "Qt Citation Program.exe" and checking the unblock checkbox. Don't forget to press apply before closing the properties window.
+
 
 Please remember that I am a self-taught programmer, and that I do this as a hobby because: a) It's fun and b) I want to give back to the Free and Open Source Software community.
 
