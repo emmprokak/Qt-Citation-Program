@@ -15,7 +15,7 @@ The icons of the program are all made by Danae Lypiridi.
 
 -Download the zip folder from releases.
 
--Extract it anywhere you want.
+-Extract the folder anywhere you want.
 
 -Run "Qt Citation Program.exe" from inside the extracted folder.
 ### Window defender will NOT allow you to run the exe since it's an unsigned executable you got from the internet.
