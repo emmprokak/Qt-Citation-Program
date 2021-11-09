@@ -18,7 +18,7 @@ The icons of the program are all made by Danae Lypiridi.
 -Extract the folder anywhere you want.
 
 -Run "Qt Citation Program.exe" from inside the extracted folder.
-### Window defender will NOT allow you to run the exe since it's an unsigned executable you got from the internet.
+### Windows defender will NOT allow you to run the exe since it's an unsigned executable you got from the internet.
 ### After the "don't run" window appears, you will be able to unblock the application by going to the properties of "Qt Citation Program.exe" and checking the unblock checkbox. Don't forget to press apply before closing the properties window.
 
 
