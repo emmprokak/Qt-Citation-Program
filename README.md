@@ -28,6 +28,12 @@ The icons of the program are all made by Danae Lypiridi.
 -Open it and move "QtCitationProgram" to your Applications folder and dock.
 
 
+![screenshot_mac1](https://user-images.githubusercontent.com/89413115/141653813-aed9f64e-feef-43ad-a8f9-86395d790cb3.png)
+
+
+![screenshot_mac2](https://user-images.githubusercontent.com/89413115/141653820-8f2c9d21-d186-4b2a-9f8c-0921ae15fb93.png)
+
+
 Please remember that I am a self-taught programmer, and that I do this as a hobby because: a) It's fun and b) I want to give back to the Free and Open Source Software community.
 
 If there is anything in the code that could be classified as a bad practice, please don't hesitate to point it out, since it's going to make the software better and help me improve in the future.
