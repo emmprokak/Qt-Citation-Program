@@ -21,6 +21,12 @@ The icons of the program are all made by Danae Lypiridi.
 ### Windows defender will NOT allow you to run the exe since it's an unsigned executable you got from the internet.
 ### After the "don't run" window appears, click "More info" and press the "Run anyway" button.
 
+### For Mac users:
+
+-Download the dmg file from releases.
+
+-Open it and move "QtCitationProgram" to your Applications folder and dock.
+
 
 Please remember that I am a self-taught programmer, and that I do this as a hobby because: a) It's fun and b) I want to give back to the Free and Open Source Software community.
 
