@@ -36,6 +36,6 @@ The icons of the program are all made by Danae Lypiridi.
 
 Please remember that I am a self-taught programmer, and that I do this as a hobby because: a) It's fun and b) I want to give back to the Free and Open Source Software community.
 
-If there is anything in the code that could be classified as a bad practice, please don't hesitate to point it out, since it's going to make the software better and help me improve in the future.
+If there is anything in the code that could be classified as bad practice, please don't hesitate to point it out, since it's going to make the software better and help me improve in the future.
 
 I'm always open to suggestions and very grateful for useful feedback.
