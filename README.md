@@ -10,6 +10,7 @@ The program allows users to cite papers, books and in-book chapters in both the 
 ![screenshot_2_newewr](https://user-images.githubusercontent.com/89413115/141306958-e3f844c4-9c3b-4431-87f0-e440c22b9956.png)
 
 The icons of the program are all made by Danae Lypiridi.
+## Installation:
 
 ### For Windows users:
 
