@@ -14,7 +14,7 @@ The icons of the program are all made by Danae Lypiridi.
 
 ### For Windows users:
 
--Download the zip folder from releases.
+-Download the zip folder from releases (scroll to the top of the page, on the right).
 
 -Extract the folder anywhere you want.
 
@@ -26,7 +26,7 @@ In case there is no "Run anyway" button, you can unblock the application by righ
 
 ### For Mac users:
 
--Download the dmg file from releases.
+-Download the dmg file from releases (scroll to the top of the page, on the right).
 
 -Open it and move "QtCitationProgram" to your Applications folder and dock.
 
