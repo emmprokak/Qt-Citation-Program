@@ -75,9 +75,9 @@ QString& Citation::format_title(QString& title)
     QStringList elements = title.split(' ');
     for(int j = 0; j < words; j++)
     {
-        if(elements[j] == "or" || (elements[j] == "the" && j != 0) ||
+        if(j != 0 && (elements[j] == "or" || elements[j] == "the" ||
                 elements[j] == "of" || elements[j] == "and" ||
-                elements[j] == "in" || elements[j] == "at")
+                elements[j] == "in" || elements[j] == "at"))
             elements[j][0] = elements[j][0].toLower();
         else
             elements[j][0] = elements[j][0].toUpper();
@@ -103,13 +103,6 @@ void Citation::clear_layout(QLayout *layout)
     QLayoutItem *item;
     while((item = layout->takeAt(0)))
     {
-    /**
-        if (item->layout())
-        {
-            clear_layout(item->layout());
-            delete item->layout();
-        }
-*/
         if (item->widget())
            delete item->widget();
 
