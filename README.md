@@ -8,7 +8,7 @@ Qt Citation Program, written in C++ and powered by Qt, aims to help the user for
 
 The program allows users to cite papers, books and in-book chapters in both the Harvard and APA citation standards. All the user has to do is enter data in the textfields of the GUI, and the program will format the citation in a proper manner.
 
-![screenshot_2_newewr](https://user-images.githubusercontent.com/89413115/141306958-e3f844c4-9c3b-4431-87f0-e440c22b9956.png)![Uploading screenshot_win.png…]()
+![screenshot_2_newewr](https://user-images.githubusercontent.com/89413115/141306958-e3f844c4-9c3b-4431-87f0-e440c22b9956.png)
 
 
 The icons of the program are all made by Danae Lypiridi.
