@@ -262,7 +262,7 @@ void PaperCitationWindow::format_extra_authors_in_normal_mode()
     if(two_author)
     {
         author_2nd = lineedit_2nd_author->text();
-        this->format += ", " + format_author(author_2nd,this->style);
+        this->format += ", & " + format_author(author_2nd,this->style);
     }
 
     else if(three_author)
@@ -270,7 +270,7 @@ void PaperCitationWindow::format_extra_authors_in_normal_mode()
          author_2nd = lineedit_2nd_author->text();
          author_3rd = lineedit_3rd_author->text();
          this->format += ", " + format_author(author_2nd,this->style);
-         this->format += " && " + format_author(author_3rd,this->style);
+         this->format += ", & " + format_author(author_3rd,this->style);
     }
 }
 
@@ -706,7 +706,7 @@ void PaperCitationWindow::format_many_more_authors()
     {
         QString second_author = this->lineedit_2nd_author->text();
         if(!three_author)
-            this->format += " && " + format_author(second_author,this->style);
+            this->format += ", & " + format_author(second_author,this->style);
         else
             this->format += ", " + format_author(second_author,this->style);
     }
@@ -714,7 +714,7 @@ void PaperCitationWindow::format_many_more_authors()
     {
         QString third_author = this->lineedit_3rd_author->text();
         if(!four_author)
-            this->format += " && " + format_author(third_author,this->style);
+            this->format += ", & " + format_author(third_author,this->style);
         else
             this->format += ", " + format_author(third_author,this->style);
     }
@@ -722,7 +722,7 @@ void PaperCitationWindow::format_many_more_authors()
     {
         QString fourth_author = this->author_4->text();
         if(!five_author)
-            this->format += " && " + format_author(fourth_author,this->style);
+            this->format += ", & " + format_author(fourth_author,this->style);
         else
             this->format += ", " + format_author(fourth_author,this->style);
     }
@@ -730,7 +730,7 @@ void PaperCitationWindow::format_many_more_authors()
     {
         QString fifth_author = this->author_5->text();
         if(!six_author)
-            this->format += " && " + format_author(fifth_author,this->style);
+            this->format += ", & " + format_author(fifth_author,this->style);
         else
             this->format += ", " + format_author(fifth_author,this->style);
     }
@@ -738,7 +738,7 @@ void PaperCitationWindow::format_many_more_authors()
     {
         QString sixth_author = this->author_6->text();
         if(!seven_author)
-            this->format += " && " + format_author(sixth_author,this->style);
+            this->format += ", & " + format_author(sixth_author,this->style);
         else
             this->format += ", " + format_author(sixth_author,this->style);
     }
@@ -746,7 +746,7 @@ void PaperCitationWindow::format_many_more_authors()
     {
         QString seventh_author = this->author_7->text();
         if(!eight_author)
-            this->format += " && " + format_author(seventh_author,this->style);
+            this->format += ", & " + format_author(seventh_author,this->style);
         else
             this->format += ", " + format_author(seventh_author,this->style);
     }
@@ -754,7 +754,7 @@ void PaperCitationWindow::format_many_more_authors()
     {
         QString eighth_author = this->author_8->text();
         if(!nine_author)
-            this->format += " && " + format_author(eighth_author,this->style);
+            this->format += ", & " + format_author(eighth_author,this->style);
         else
             this->format += ", " + format_author(eighth_author,this->style);
     }
@@ -762,13 +762,13 @@ void PaperCitationWindow::format_many_more_authors()
     {
         QString nineth_author = this->author_9->text();
         if(!ten_author)
-            this->format += " && " + format_author(nineth_author,this->style);
+            this->format += ", & " + format_author(nineth_author,this->style);
         else
             this->format += ", " + format_author(nineth_author,this->style);
     }
     if(ten_author)
     {
         QString tenth_author = this->author_10->text();
-        this->format += " && " + format_author(tenth_author,this->style);
+        this->format += ", & " + format_author(tenth_author,this->style);
     }
 }
