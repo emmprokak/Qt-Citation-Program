@@ -219,7 +219,7 @@ void BookCitationWindow::format_citation()
     if(two_author)
     {
         author_2nd = lineedit_2nd_author->text();
-        this->format += ", " + format_author(author_2nd,this->style);
+        this->format += ", & " + format_author(author_2nd,this->style);
     }
 
     else if(three_author)
@@ -227,7 +227,7 @@ void BookCitationWindow::format_citation()
          author_2nd = lineedit_2nd_author->text();
          author_3rd = lineedit_3rd_author->text();
          this->format += ", " + format_author(author_2nd,this->style);
-         this->format += " && " + format_author(author_3rd,this->style);
+         this->format += ", & " + format_author(author_3rd,this->style);
     }
 
     if(this->style == "Harvard Style")
