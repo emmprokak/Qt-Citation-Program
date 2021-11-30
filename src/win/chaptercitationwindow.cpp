@@ -342,7 +342,7 @@ void ChapterCitationWindow::format_citation()
     if(two_author)
     {
         author_2nd = lineedit_2nd_author->text();
-        this->format += ", " + format_author(author_2nd,this->style);
+        this->format += ", & " + format_author(author_2nd,this->style);
     }
 
     else if(three_author)
@@ -350,7 +350,7 @@ void ChapterCitationWindow::format_citation()
          author_2nd = lineedit_2nd_author->text();
          author_3rd = lineedit_3rd_author->text();
          this->format += ", " + format_author(author_2nd,this->style);
-         this->format += " && " + format_author(author_3rd,this->style);
+         this->format += ", & " + format_author(author_3rd,this->style);
     }
 
     if(this->style == "Harvard Style")
@@ -365,7 +365,7 @@ void ChapterCitationWindow::format_citation()
     if(two_author_in)
     {
         author_2nd_in = lineedit_2nd_author_in->text();
-        this->format += ", " + format_author(author_2nd_in,this->style);
+        this->format += ", & " + format_author(author_2nd_in,this->style);
         this->format += " (eds)";
     }
 
@@ -374,7 +374,7 @@ void ChapterCitationWindow::format_citation()
          author_2nd_in = lineedit_2nd_author_in->text();
          author_3rd_in = lineedit_3rd_author_in->text();
          this->format += ", " + format_author(author_2nd_in,this->style);
-         this->format += " && " + format_author(author_3rd_in,this->style);
+         this->format += ", & " + format_author(author_3rd_in,this->style);
          this->format += " (eds)";
     }else
     {
