@@ -221,7 +221,7 @@ background-color:#24c8c8;
      </font>
     </property>
     <property name="text">
-     <string>(C) 2021 Prokakis Emmanouil</string>
+     <string>(C) 2022 Prokakis Emmanouil</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
