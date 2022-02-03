@@ -12,5 +12,5 @@ The program allows users to cite papers, books and in-book chapters in both the 
 
 The icons of the program are all made by Danae Lypiridi.
 
-For Installation Instructions and Instructions on how to use the app visit https://qt-citation.com/home
+For Installation Instructions and Instructions on how to use the app visit https://qt-citation.com/download & visit https://qt-citation.com/how-to-use respectively
 
