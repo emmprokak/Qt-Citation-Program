@@ -1,7 +1,7 @@
 # Qt Citation Program 
 ## Copyright (C) 2022 Prokakis Emmanouil
 
-Qt Citation Program, written in C++ and powered by Qt, aims to help the user format his/her citations in a more automated way. The program formats the data given by the user into a complete citation, ready to be pasted into school/university projects and academic papers!
+Qt Citation Program, written in C++ and powered by Qt, aims to help the user format his/her citations in a more automated way. The program formats the data given by the user into a complete citation, ready to be pasted into school/university projects and academic papers! Check out the official website at https://qt-citation.com/home
 
 ![Screenshot with icon](https://user-images.githubusercontent.com/89413115/148078384-a11c2436-a420-43cf-b063-d4c11b55f296.png)
 
@@ -11,31 +11,6 @@ The program allows users to cite papers, books and in-book chapters in both the 
 
 
 The icons of the program are all made by Danae Lypiridi.
-## Installation:
 
-### For Windows users:
-
--Download the zip folder from releases (scroll to the top of the page, on the right).
-
--Extract the folder anywhere you want.
-
--Run "Qt Citation Program.exe" from inside the extracted folder.
-### Windows defender will NOT allow you to run the exe since it's an unsigned executable you got from the internet.
-After the "don't run" window appears, click "More info" and press the "Run anyway" button.
-
-In case there is no "Run anyway" button, you can unblock the application by rightclicking it, going to properties, checking the unblock checkbox and clicking apply.
-
-### For Mac users:
-
--Download the dmg file from releases (scroll to the top of the page, on the right).
-
--Open it and move "QtCitationProgram" to your Applications folder and dock.
-
-
-
-![screenshot_mac1 2](https://user-images.githubusercontent.com/89413115/143571605-e1966e86-b371-472a-88de-da81a9ed4c13.png)
-
-
-![screenshot_mac2](https://user-images.githubusercontent.com/89413115/141653820-8f2c9d21-d186-4b2a-9f8c-0921ae15fb93.png)
-
+For Installation Instructions and Instructions on how to use the app visit https://qt-citation.com/home
 
