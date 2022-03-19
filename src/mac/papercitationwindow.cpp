@@ -1,6 +1,6 @@
 /**
 Qt Citation Program
-Copyright (C) 2021 Prokakis Emmanouil
+Copyright (C) 2022 Prokakis Emmanouil
 
 Qt Citation Program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -64,6 +64,26 @@ void PaperCitationWindow::init_gui()
 
     if(multiple_authors)
         init_many_more_authors();
+
+    fixTabOrder();
+}
+
+void PaperCitationWindow::fixTabOrder()
+{
+    this->setTabOrder(ui_2->lineedit_author, this->lineedit_2nd_author);
+    this->setTabOrder(this->lineedit_2nd_author, this->lineedit_3rd_author);
+    this->setTabOrder(this->lineedit_3rd_author,ui_2->lineedit_year);
+    if(multiple_authors)
+     {
+         this->setTabOrder(this->lineedit_3rd_author,this->author_4);
+         this->setTabOrder(this->author_4, this->author_5);
+         this->setTabOrder(this->author_5, this->author_6);
+         this->setTabOrder(this->author_6, this->author_7);
+         this->setTabOrder(this->author_7, this->author_8);
+         this->setTabOrder(this->author_8, this->author_9);
+         this->setTabOrder(this->author_9, this->author_10);
+         this->setTabOrder(this->author_10, ui_2->lineedit_year);
+     }
 }
 
 void PaperCitationWindow::on_button_back_clicked()

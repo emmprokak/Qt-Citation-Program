@@ -1,22 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Qt Citation Program
-Copyright (C) 2021 Prokakis Emmanouil
-
-Qt Citation Program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Qt Citation Program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Qt Citation Program. If not, see <https://www.gnu.org/licenses/>.
--->
-
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
@@ -221,7 +203,7 @@ background-color:#24c8c8;
      </font>
     </property>
     <property name="text">
-     <string>(C) 2022 Prokakis Emmanouil</string>
+     <string>© 2022 Prokakis Emmanouil</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -242,7 +224,7 @@ background-color:#24c8c8;
      </font>
     </property>
     <property name="text">
-     <string>1.1.1</string>
+     <string>1.1.2</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -289,8 +271,8 @@ background-color:#24c8c8;
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>70</y>
+      <x>40</x>
+      <y>60</y>
       <width>321</width>
       <height>16</height>
      </rect>
@@ -302,6 +284,22 @@ background-color:#24c8c8;
     </property>
     <property name="text">
      <string>Licensed under GNU GPLv3 + Powered by Qt</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>website</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>

@@ -59,6 +59,7 @@ private:
     void init_many_more_authors();
     void handle_many_more_authors();
     void init_gui();
+    void fixTabOrder();
 
     // booleans for many more authors
     bool multiple_authors;

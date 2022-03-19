@@ -68,6 +68,7 @@ private:
     void clear_entries();
     void clear_entries_in();
     void init_gui();
+    void fixTabOrder();
 
 private slots:
     void on_radio_2nd_clicked();
