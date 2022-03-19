@@ -1,6 +1,6 @@
 /**
 Qt Citation Program
-Copyright (C) 2021 Prokakis Emmanouil
+Copyright (C) 2022 Prokakis Emmanouil
 
 Qt Citation Program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -54,6 +54,18 @@ void ChapterCitationWindow::init_gui()
     this->setWindowTitle("Citing chapter-in-book");
     ui_4->groupBox->setTitle("Input data for " + style + " citation!");
     ui_4->label_result->setWordWrap(true);
+    fixTabOrder();
+}
+
+void ChapterCitationWindow::fixTabOrder()
+{
+    this->setTabOrder(ui_4->lineedit_author, this->lineedit_2nd_author);
+    this->setTabOrder(this->lineedit_2nd_author, this->lineedit_3rd_author);
+    this->setTabOrder(this->lineedit_3rd_author,ui_4->lineedit_year);
+
+    this->setTabOrder(ui_4->lineedit_author_in, this->lineedit_2nd_author_in);
+    this->setTabOrder(this->lineedit_2nd_author_in, this->lineedit_3rd_author_in);
+    this->setTabOrder(this->lineedit_3rd_author_in,ui_4->lineedit_year_in);
 }
 
 bool ChapterCitationWindow::check_if_entries_empty()

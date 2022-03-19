@@ -1,6 +1,6 @@
 /**
 Qt Citation Program
-Copyright (C) 2021 Prokakis Emmanouil
+Copyright (C) 2022 Prokakis Emmanouil
 
 Qt Citation Program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -67,6 +67,7 @@ private:
     void clear_entries();
     void clear_entries_in();
     void init_gui();
+    void fixTabOrder();
 
 private slots:
     void on_radio_2nd_clicked();

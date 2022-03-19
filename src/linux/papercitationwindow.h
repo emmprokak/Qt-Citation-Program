@@ -1,6 +1,6 @@
 /**
 Qt Citation Program
-Copyright (C) 2021 Prokakis Emmanouil
+Copyright (C) 2022 Prokakis Emmanouil
 
 Qt Citation Program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -58,6 +58,7 @@ private:
     void init_many_more_authors();
     void handle_many_more_authors();
     void init_gui();
+    void fixTabOrder();
 
     // booleans for many more authors
     bool multiple_authors;

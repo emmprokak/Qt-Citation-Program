@@ -1,6 +1,6 @@
 /**
 Qt Citation Program
-Copyright (C) 2021 Prokakis Emmanouil
+Copyright (C) 2022 Prokakis Emmanouil
 
 Qt Citation Program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -105,6 +105,11 @@ void MainWindow::prepare_menu_gui()
     ui->button_chapter->setToolTip("Cite chapter-in-book");
     ui->button_info->setToolTip("About...");
     ui->comboBox->setToolTip("Choose citation style");
+
+    ui->label_6->setText("<a href=\"https://qt-citation.com/home\">Go to the official website</a>");
+    ui->label_6->setTextFormat(Qt::RichText);
+    ui->label_6->setTextInteractionFlags(Qt::TextBrowserInteraction);
+    ui->label_6->setOpenExternalLinks(true);
 }
 
 

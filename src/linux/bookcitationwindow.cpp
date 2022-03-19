@@ -1,6 +1,6 @@
 /**
 Qt Citation Program
-Copyright (C) 2021 Prokakis Emmanouil
+Copyright (C) 2022 Prokakis Emmanouil
 
 Qt Citation Program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -55,6 +55,14 @@ void BookCitationWindow::init_gui()
     ui_3->label_result->setWordWrap(true);
     ui_3->radio_1st->setChecked(true);
     prepare_gui_for_multiple_authors();
+    fixTabOrder();
+}
+
+void BookCitationWindow::fixTabOrder()
+{
+    this->setTabOrder(ui_3->lineedit_author, this->lineedit_2nd_author);
+    this->setTabOrder(this->lineedit_2nd_author, this->lineedit_3rd_author);
+    this->setTabOrder(this->lineedit_3rd_author,ui_3->lineedit_year);
 }
 
 void BookCitationWindow::button_back_icon()
