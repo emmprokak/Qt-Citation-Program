@@ -54,6 +54,7 @@ void ChapterCitationWindow::init_gui()
     this->setWindowTitle("Citing chapter-in-book");
     ui_4->groupBox->setTitle("Input data for " + style + " citation!");
     ui_4->label_result->setWordWrap(true);
+    fixTabOrder();
 }
 
 bool ChapterCitationWindow::check_if_entries_empty()
@@ -66,6 +67,17 @@ bool ChapterCitationWindow::check_if_entries_empty_in()
 {
    return (ui_4->lineedit_author_in->text() == "" ||
            ui_4->lineedit_year_in->text() == "");
+}
+
+void ChapterCitationWindow::fixTabOrder()
+{
+    this->setTabOrder(ui_4->lineedit_author, this->lineedit_2nd_author);
+    this->setTabOrder(this->lineedit_2nd_author, this->lineedit_3rd_author);
+    this->setTabOrder(this->lineedit_3rd_author,ui_4->lineedit_year);
+
+    this->setTabOrder(ui_4->lineedit_author_in, this->lineedit_2nd_author_in);
+    this->setTabOrder(this->lineedit_2nd_author_in, this->lineedit_3rd_author_in);
+    this->setTabOrder(this->lineedit_3rd_author_in,ui_4->lineedit_year_in);
 }
 
 void ChapterCitationWindow::clear_entries()

@@ -53,6 +53,7 @@ private:
     bool check_if_entries_empty();
     void clear_entries();
     void init_gui();
+    void fixTabOrder();
 
 
 private slots:
