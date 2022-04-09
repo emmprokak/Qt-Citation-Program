@@ -1,22 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Qt Citation Program
-Copyright (C) 2021 Prokakis Emmanouil
-
-Qt Citation Program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Qt Citation Program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Qt Citation Program. If not, see <https://www.gnu.org/licenses/>.
--->
-
 <ui version="4.0">
  <class>BookCitationWindow</class>
  <widget class="QMainWindow" name="BookCitationWindow">
@@ -24,8 +6,8 @@ along with Qt Citation Program. If not, see <https://www.gnu.org/licenses/>.
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>357</width>
-    <height>440</height>
+    <width>385</width>
+    <height>481</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -37,7 +19,7 @@ along with Qt Citation Program. If not, see <https://www.gnu.org/licenses/>.
      <rect>
       <x>10</x>
       <y>30</y>
-      <width>281</width>
+      <width>311</width>
       <height>241</height>
      </rect>
     </property>
@@ -219,9 +201,9 @@ along with Qt Citation Program. If not, see <https://www.gnu.org/licenses/>.
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>360</y>
-      <width>291</width>
-      <height>71</height>
+      <y>380</y>
+      <width>321</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="font">
@@ -237,8 +219,8 @@ along with Qt Citation Program. If not, see <https://www.gnu.org/licenses/>.
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>320</y>
+      <x>200</x>
+      <y>330</y>
       <width>168</width>
       <height>35</height>
      </rect>
@@ -279,7 +261,7 @@ along with Qt Citation Program. If not, see <https://www.gnu.org/licenses/>.
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>320</y>
+      <y>330</y>
       <width>61</width>
       <height>31</height>
      </rect>
@@ -307,7 +289,7 @@ background-color:#24c8c8;
      <rect>
       <x>10</x>
       <y>280</y>
-      <width>337</width>
+      <width>351</width>
       <height>24</height>
      </rect>
     </property>
@@ -358,8 +340,8 @@ background-color:#24c8c8;
    <widget class="QLabel" name="label_copy">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>300</y>
+      <x>180</x>
+      <y>310</y>
       <width>131</width>
       <height>21</height>
      </rect>
@@ -376,15 +358,15 @@ background-color:#24c8c8;
    <widget class="QPushButton" name="button_reset">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>340</x>
       <y>100</y>
-      <width>41</width>
-      <height>111</height>
+      <width>31</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="text">
@@ -401,8 +383,8 @@ t</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>357</width>
-     <height>22</height>
+     <width>385</width>
+     <height>24</height>
     </rect>
    </property>
   </widget>
